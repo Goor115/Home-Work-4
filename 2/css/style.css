@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+p:first-of-type {
+  color: blueviolet;
+}
+
+p:last-child {
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px ;
+  margin: 0px;
+}
+
+h1:hover {
+  background-color: coral;
+}
+
+.text::first-letter {
+  color: aqua;
+}
